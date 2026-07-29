@@ -1,0 +1,43 @@
+==================================================
+             Simulation Config
+==================================================
+chl_name                 : WBSV
+N_BS                     : 1
+antanna_mode             : ULA
+N_RF                     : 6
+K                        : 4
+K_sch                    : 4
+Nr                       : 2
+Ns                       : 1
+vkmh                     : 0
+v                        : 0.0
+Nt                       : 32
+Ncb                      : 32
+Ncl                      : 4
+Nray                     : 5
+N_RBG                    : 16
+N_FFT                    : 1024
+N_subcarrier_perRB       : 12
+N_RB_perRBG              : 1
+N_subcarrier_perRBG      : 12
+N_subcarrier             : 192
+angle_sigma              : 0.08726646259971647
+fc                       : 3500000000.0
+fsc                      : 30000.0
+c                        : 299792458.0
+fd_max                   : 0.0
+fs                       : 30720000.0
+Ts                       : 3.2552083333333335e-08
+D                        : 72
+dmin                     : 20
+dmax                     : 100
+sigma_SF                 : 4
+is_path_loss             : False
+SNR                      : 10
+Pt_rb                    : 1
+sigma2_rb                : 0.1
+N_FRAME                  : 1
+Tf                       : 0.0005
+packet_mode              : Poisson
+env_name                 : WBSV_NRBG16_K4_Nt32_Nr2_Ncl4_Nray5
+==================================================
