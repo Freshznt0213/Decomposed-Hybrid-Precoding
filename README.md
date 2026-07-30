@@ -43,15 +43,11 @@ MIMOprecoding.m
 
 can be used to compute the numerically optimized precoding solution for the corresponding channel scenario.
 
-The numerical results obtained from this script can be used as a performance benchmark for evaluating the proposed learning-based model.
+The numerical results obtained from this script can be used as a baseline for evaluating the performance ratio of the proposed learning-based model.
 
 ## Wideband Scenario
 
-For the wideband scenario, we provide a pretrained model trained under a large-scale **Urban Macrocell (UMa)** channel configuration.
-
-The pretrained model can be directly evaluated without retraining to reproduce the wideband performance reported in the paper.
-
-Please configure the test parameters and pretrained-model path according to the provided testing scripts before running the evaluation.
+For the wideband scenario, we provide a pretrained model trained under a large-scale **Urban Macrocell (UMa)** channel configuration. The pretrained model can be directly evaluated or being further fine-tuned. Please configure the test parameters and pretrained-model path according to the provided testing scripts before running the evaluation.
 
 ## Recommended Workflow
 
@@ -73,20 +69,4 @@ For wideband experiments:
 Load the provided pretrained UMa model
                 ↓
 Run the corresponding testing script
-                ↓
-Evaluate the performance reported in the paper
-```
-
-## Requirements
-
-The narrowband learning-based implementation requires Python and a compatible deep-learning environment. The numerical optimization code requires MATLAB.
-
-Please refer to the source files for detailed model parameters, channel configurations, and experimental settings.
-
-## Repository
-
-The complete source code is available at:
-
-```text
-https://github.com/freshznt/hyb.com
 ```
