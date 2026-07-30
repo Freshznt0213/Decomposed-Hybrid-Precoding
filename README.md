@@ -5,7 +5,7 @@ This repository provides the implementation of the methods presented in our pape
 Repository address:
 
 ```text
-https://github.com/freshznt/hyb.com
+https://github.com/Freshznt0213/Decomposed-Hybrid-Precoding
 ```
 
 ## Overview
@@ -15,7 +15,7 @@ The repository contains two main parts:
 * Narrowband MIMO channel experiments
 * Wideband MIMO channel experiments
 
-The narrowband implementation includes channel dataset generation, GNN model training, and MATLAB-based numerical optimization. For the wideband setting, we provide a pretrained model that can be directly evaluated under a large-scale Urban Macrocell channel scenario.
+The narrowband implementation includes channel dataset generation, GNN model training, and MATLAB-based numerical optimization. For the wideband setting, we provide a pretrained model that can be directly evaluated under a large-scale Urban Macro-cell channel scenario.
 
 ## Narrowband Scenario
 
