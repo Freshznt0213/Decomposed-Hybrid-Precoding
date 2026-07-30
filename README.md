@@ -25,19 +25,11 @@ For the narrowband scenario, please follow the steps below.
 
 Use `gen_dataset.py` to generate channel realizations according to the desired system and channel configurations.
 
-```bash
-python gen_dataset.py
-```
-
-Before running the script, please modify the relevant parameters in `gen_dataset.py` to match your experimental settings, such as the number of antennas, number of users, channel distribution, and dataset size.
+Before running the script, please modify the relevant parameters in `gen_dataset.py` to match your experimental settings, such as the number of antennas, number of users.
 
 ### 2. Train the GNN Model
 
 After generating the channel dataset, run `MIMOHPC_main.py` to train the GNN model proposed in the paper.
-
-```bash
-python MIMOHPC_main.py
-```
 
 Please ensure that the dataset path and system parameters in `MIMOHPC_main.py` are consistent with those used during dataset generation.
 
